@@ -1,0 +1,20 @@
+get http://localhost:5000/api/users/user?name=issam
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzMwZGNiYzJjYTg0OWJkNjYwYjNiOSIsImlhdCI6MTY3MzczMDk2OSwiZXhwIjoxNjc2MzIyOTY5fQ._DDFQw4f9UvWjmy3kpSUHjPpmozxAI5UcJOZ0FLFeGY
+
+###
+post http://localhost:5000/api/users/register
+Content-Type: application/json
+
+{
+    "name" : "issam" ,
+    "email" : "test2" ,
+    "password" : "123456"
+}
+### 
+post http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+    "email" : "test2" ,
+    "password" : "123456"
+}

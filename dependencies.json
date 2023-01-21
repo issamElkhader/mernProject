@@ -1,0 +1,9 @@
+{
+    "serverDependencies" : [
+        "npm i express mongoose dotenv cors colors -D nodemon jsonwebtoken body-parser express-async-handler"
+    ]
+    , 
+    "clientDependencies" : [
+        "npm i create-react-app ./ --template redux"
+    ]
+}

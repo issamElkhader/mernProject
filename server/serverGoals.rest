@@ -1,0 +1,23 @@
+get http://localhost:5000/api/goals
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzMyZTk4NTg2NTVjZTc1NTQwMGZiMCIsImlhdCI6MTY3MzczNTg1NCwiZXhwIjoxNjc2MzI3ODU0fQ.zO7UYxta7gtP6uiv-kP2XZxRUxlIcTWoPieinXzao7Q
+
+###
+post http://localhost:5000/api/goals
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzMyZTk4NTg2NTVjZTc1NTQwMGZiMCIsImlhdCI6MTY3MzczNTg1NCwiZXhwIjoxNjc2MzI3ODU0fQ.zO7UYxta7gtP6uiv-kP2XZxRUxlIcTWoPieinXzao7Q
+
+{
+    "text" : "6464543"
+}
+
+###
+delete http://localhost:5000/api/goals/63c330519ee4daa96261dfc3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzMyZTk4NTg2NTVjZTc1NTQwMGZiMCIsImlhdCI6MTY3MzczNTg1NCwiZXhwIjoxNjc2MzI3ODU0fQ.zO7UYxta7gtP6uiv-kP2XZxRUxlIcTWoPieinXzao7Q
+### 
+put http://localhost:5000/api/goals/63c330519ee4daa96261dfc3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzMyZTk4NTg2NTVjZTc1NTQwMGZiMCIsImlhdCI6MTY3MzczNTg1NCwiZXhwIjoxNjc2MzI3ODU0fQ.zO7UYxta7gtP6uiv-kP2XZxRUxlIcTWoPieinXzao7Q
+
+{
+    "text" : "goal"
+}
